@@ -1,0 +1,20 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<ul class="item-list">
+  {{ range .Pages.ByDate.Reverse }}
+  <li class="item">
+    <div class="item-header">
+      {{ if .Params.link }}
+      <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+      {{ else }}
+      <span>{{ .Title }}</span>
+      {{ end }}
+      <span class="item-date">{{ .Date.Format "2006" }}</span>
+    </div>
+    {{ with .Params.event }}<p class="item-meta">{{ . }}</p>{{ end }}
+    {{ with .Params.publication }}<p class="item-meta">{{ . }}</p>{{ end }}
+    {{ with .Params.description }}<p class="item-desc">{{ . }}</p>{{ end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

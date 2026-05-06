@@ -1,0 +1,14 @@
+baseURL = "https://thomaswickham.com/"
+languageCode = "en-us"
+title = "Thomas Wickham"
+theme = "thomaswickham"
+
+[params]
+  author = "Thomas Wickham"
+
+[menu]
+  [[menu.main]]
+    identifier = "section1"
+    name = "Section"
+    url = "/section/"
+    weight = 10
