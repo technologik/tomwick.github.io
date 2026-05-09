@@ -26,13 +26,10 @@
 
 html {
   background-color: var(--bg);
-  background-image: url('/images/pokeball-pattern.svg');
-  background-repeat: repeat;
-  background-size: 360px 240px;
 }
 
 body {
-  background-color: transparent;
+  background-color: var(--bg);
   color: var(--fg);
   font-family: 'JetBrains Mono', 'Fira Mono', 'Cascadia Code', 'Courier New', monospace;
   font-size: 14px;
@@ -41,6 +38,17 @@ body {
   margin: 0 auto;
   padding: 48px 24px;
   transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('/images/pokeball-pattern.svg');
+  background-repeat: repeat;
+  background-size: 360px 240px;
+  z-index: -1;
+  pointer-events: none;
 }
 
 a {
