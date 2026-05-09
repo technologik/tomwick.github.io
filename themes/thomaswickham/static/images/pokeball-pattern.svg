@@ -65,8 +65,8 @@
   <circle cx="90" cy="90" r="20" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <path d="M 70,90 A 20,20 0 0,1 110,90" fill="white" fill-opacity="0.06"/>
   <line x1="70" y1="90" x2="110" y2="90" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
-  <path d="M 80,90 A 10,10 0 0,1 100,90" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2" stroke-opacity="0.75"/>
-  <path d="M 85,90 A 5,5 0 0,1 95,90" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="1" stroke-opacity="0.60"/>
+  <path d="M 80,90 A 10,10 0 0,1 100,90" fill="none" stroke="white" stroke-width="2" stroke-opacity="0.75"/>
+  <path d="M 85,90 A 5,5 0 0,1 95,90" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.60"/>
   <circle cx="90" cy="90" r="5" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <circle cx="90" cy="90" r="2" fill="white" fill-opacity="0.3"/>
 
@@ -117,8 +117,8 @@
   <circle cx="30" cy="150" r="20" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <path d="M 10,150 A 20,20 0 0,1 50,150" fill="white" fill-opacity="0.04"/>
   <line x1="10" y1="150" x2="50" y2="150" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
-  <circle cx="21" cy="142" r="3.5" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2" stroke-opacity="0.90"/>
-  <circle cx="39" cy="142" r="3.5" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2" stroke-opacity="0.90"/>
+  <circle cx="21" cy="142" r="3.5" fill="none" stroke="white" stroke-width="2" stroke-opacity="0.90"/>
+  <circle cx="39" cy="142" r="3.5" fill="none" stroke="white" stroke-width="2" stroke-opacity="0.90"/>
   <circle cx="30" cy="150" r="5" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <circle cx="30" cy="150" r="2" fill="white" fill-opacity="0.3"/>
 
@@ -163,7 +163,7 @@
   <!-- 18. Luxury Ball: dark top + thick gold band -->
   <circle cx="330" cy="150" r="20" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <path d="M 310,150 A 20,20 0 0,1 350,150" fill="white" fill-opacity="0.03"/>
-  <line x1="310" y1="150" x2="350" y2="150" stroke="white" stroke-opacity="0.90" stroke-width="5" stroke-opacity="0.75"/>
+  <line x1="310" y1="150" x2="350" y2="150" stroke="white" stroke-width="5" stroke-opacity="0.75"/>
   <circle cx="330" cy="150" r="5" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <circle cx="330" cy="150" r="2" fill="white" fill-opacity="0.3"/>
 
@@ -206,8 +206,8 @@
   <circle cx="270" cy="210" r="20" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <path d="M 250,210 A 20,20 0 0,1 290,210" fill="white" fill-opacity="0.06"/>
   <line x1="250" y1="210" x2="290" y2="210" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
-  <line x1="270" y1="194" x2="270" y2="208" stroke="white" stroke-opacity="0.90" stroke-width="2.5" stroke-opacity="0.90"/>
-  <line x1="263" y1="201" x2="277" y2="201" stroke="white" stroke-opacity="0.90" stroke-width="2.5" stroke-opacity="0.90"/>
+  <line x1="270" y1="194" x2="270" y2="208" stroke="white" stroke-width="2.5" stroke-opacity="0.90"/>
+  <line x1="263" y1="201" x2="277" y2="201" stroke="white" stroke-width="2.5" stroke-opacity="0.90"/>
   <circle cx="270" cy="210" r="5" fill="none" stroke="white" stroke-opacity="0.90" stroke-width="2.5"/>
   <circle cx="270" cy="210" r="2" fill="white" fill-opacity="0.3"/>
 
