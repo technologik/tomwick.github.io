@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ site.Title }}</title>
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{- $svg := readFile "themes/thomaswickham/static/images/pokeball-pattern.svg" -}}
+  <style>
+  html {
+    background-image: url("data:image/svg+xml;base64,{{ $svg | base64Encode }}");
+    background-repeat: repeat;
+    background-size: 360px 240px;
+  }
+  </style>
   <script>
     (function() {
       var saved = localStorage.getItem('theme');
