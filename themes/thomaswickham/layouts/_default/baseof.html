@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
   {{- $svg := readFile "themes/thomaswickham/static/images/pokeball-pattern.svg" -}}
   <style>
-  html {
+  body {
     background-image: url("data:image/svg+xml;base64,{{ $svg | base64Encode }}");
     background-repeat: repeat;
     background-size: 360px 240px;

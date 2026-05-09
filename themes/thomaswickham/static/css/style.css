@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  background-color: transparent;
+  background-color: var(--bg);
   color: var(--fg);
   font-family: 'JetBrains Mono', 'Fira Mono', 'Cascadia Code', 'Courier New', monospace;
   font-size: 14px;
