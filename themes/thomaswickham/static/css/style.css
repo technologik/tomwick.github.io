@@ -109,8 +109,8 @@ main {
 /* Homepage video */
 .video-wrap {
   position: relative;
-  width: 100%;
-  max-width: 960px;
+  /* Fill viewport width or constrain by height (minus ~140px for header), whichever is smaller */
+  width: min(92vw, calc((100vh - 140px) * 16 / 9));
   margin: 0 auto;
   aspect-ratio: 16 / 9;
 }
